@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odev2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #2b7a78;
+            border: 1px solid #17252a;
+        }
+
+        .menu li {
+            position: relative;
+            border-bottom: 1px solid #17252a;
+        }
+
+        .menu li:last-child {
+            border-bottom: none;
+        }
+
+        .menu li a {
+            display: block;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            background-color: #2b7a78;
+            border-left: 5px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .menu li a:hover {
+            background-color: #30948f;
+            border-left: 5px solid #def2f1;
+        }
+
+        .menu .submenu {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 200px;
+            list-style-type: none;
+            background-color: #30948f;
+            padding: 0;
+            margin: 0;
+            width: 200px;
+            border: 1px solid #17252a;
+        }
+
+        .submenu li {
+            border-bottom: 1px solid #17252a;
+        }
+
+        .submenu li:last-child {
+            border-bottom: none;
+        }
+
+        .submenu li a {
+            color: white;
+            padding: 10px;
+            background-color: #30948f;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .submenu li a:hover {
+            background-color: #3aafa9;
+        }
+
+        .menu li:hover .submenu {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul class="menu">
+        <li><a href="https://bil-muhendislik.omu.edu.tr/tr">Anasayfa</a></li>
+        <li><a href="https://bil-muhendislik.omu.edu.tr/tr/hakkimizda">Hakkımızda</a>
+            <ul class="submenu">
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/hakkimizda/bolumumuz">Bölümümüz</a></li>
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/hakkimizda/yonetim">Yönetim</a></li>
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/hakkimizda/komisyonlar">Komisyonlar</a></li>
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/hakkimizda/egitim-amaclari">Eğitim Amaçlar</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://bil-muhendislik.omu.edu.tr/tr/personel">Personel</a>
+            <ul class="submenu">
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/personel/ogretim-uyeleri">Öğretim Üyeleri</a></li>
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/personel/arastirma-gorevlileri">Araştırma Görevlileri</a></li>
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/personel/idari-pesonel">İdari Personel</a></li>
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/personel/eski-oegretim-ueyeleri">Eski Öğretim Üyeleri</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://bil-muhendislik.omu.edu.tr/tr/egitim">Eğitim-Öğretim</a>
+            <ul class="submenu">
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/egitim/lisans">Lisans</a></li>
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/egitim/yueksek-lisans">Yüksek Lisans</a></li>
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/egitim/doktora-hesaplamali-bilimler">Doktora(Hesaplamalı Bilimler)</a></li>
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/egitim/ders-programlari">Ders Programları</a></li>
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/egitim/laboratuvarlar">Laboratuvarlar</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://bil-muhendislik.omu.edu.tr/tr/arastirma">Araştırma</a>
+            <ul class="submenu">
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/arastirma/arastirma-gruplari">Araştırma Grupları</a></li>
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/arastirma/projeler">Projeler</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://bil-muhendislik.omu.edu.tr/tr/belgeler">Belgeler</a>
+            <ul class="submenu">
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/belgeler/yonergeler">Yönergeler</a></li>
+                <li><a href="https://unikys.omu.edu.tr/tr">Formlar</a></li>
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/belgeler/staj">Staj</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://bil-muhendislik.omu.edu.tr/tr/mezun-bilgi-sistemi">Mezun Bilgi Sistemi</a>
+            <ul class="submenu">
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/mezun-bilgi-sistemi/mezunlarimiz">Mezunlarımız</a></li>
+                <li><a href="https://bil-muhendislik.omu.edu.tr/tr/mezun-bilgi-sistemi/mezunlar-bilgi-sistemi">Mezunlar Bilgi Sistemi</a></li>
+            </ul>
+        </li>
+        <li><a href="https://unikys.omu.edu.tr/tr/feedbacks/new">İletişim</a></li>
+    </ul>
+
+</body>
+
+</html>

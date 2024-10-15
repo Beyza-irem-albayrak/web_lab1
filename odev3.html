@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Odev3</title>
+    <!-- Bootstrap 4 CSS file -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar (Feature 1: Navbar) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">MySite</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Anasayfa <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hizmetler</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">İletişim</a>
+                </li>
+                <!-- Dropdown (Feature 2: Dropdown) -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Daha Fazla
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Haberler</a>
+                        <a class="dropdown-item" href="#">Projeler</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carousel (Feature 3: Carousel) -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://www.paraf.com.tr/tr/kampanyalar/e-ticaret/paraf-ile-eticaret-alisverisleinizde-75-tl-parafpara/_jcr_content/root/responsivegrid/container_109478952_/teaser.coreimg.100.3840.jpeg/1641217802901/eticaret-paraf-1920x600-text.jpeg" alt="Slide 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Hoşgeldiniz</h5>
+                    <p>Web sitemize hoşgeldiniz!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://www.paraf.com.tr/tr/kampanyalar/e-ticaret/e-ticaret-kampanyasi/_jcr_content/root/responsivegrid/container_109478952_/teaser.coreimg.100.3840.jpeg/1656589445935/eticaret-1920x600-paraftext.jpeg" alt="Slide 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Projelerimiz</h5>
+                    <p>Projelerimize göz atın!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://www.paraf.com.tr/tr/kampanyalar/e-ticaret/paraf-ile-eticaret-alisverislerinizde-100tl-parafpara/_jcr_content/root/responsivegrid/container_109478952_/teaser.coreimg.100.3840.jpeg/1643641529196/eticaret-paraf-1920x600-text.jpeg" alt="Slide 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>İletişim</h5>
+                    <p>Bize ulaşın!</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Cards (Feature 4: Cards and Feature 5: Buttons) -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://blog.kobisi.com/wp-content/uploads/2017/08/e-ticaret-maliye1-1024x563-768x422.jpg" class="card-img-top" alt="Hizmet 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Ürün 1</h5>
+                        <p class="card-text">Ürün açıklaması</p>
+                        <a href="#" class="btn btn-primary">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://eticaretsozlugu.kobisi.com/wp-content/uploads/2018/02/e-pazarlama.jpg" class="card-img-top" alt="Hizmet 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Ürün 2</h5>
+                        <p class="card-text">Ürün açıklaması</p>
+                        <a href="#" class="btn btn-primary">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://blog.kobisi.com/wp-content/uploads/2020/07/e-commerce-1606962_1280.png" class="card-img-top" alt="Hizmet 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Ürün 3</h5>
+                        <p class="card-text">Ürün açıklaması</p>
+                        <a href="#" class="btn btn-primary">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form (Feature 6: Form) -->
+    <section class="container my-5">
+        <h2>Bizimle İletişime Geçin</h2>
+        <form>
+            <div class="form-group">
+                <label for="email">E-posta adresi:</label>
+                <input type="email" class="form-control" id="email" placeholder="E-postanızı girin">
+            </div>
+            <div class="form-group">
+                <label for="message">Mesajınız:</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Mesajınızı yazın"></textarea>
+            </div>
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-success">Gönder</button>
+        </form>
+    </section>
+
+    <!-- Badge (Feature 7: Badge) -->
+    <section class="container my-5">
+        <h2>Öne Çıkanlar <span class="badge badge-warning">Yeni</span></h2>
+        <p>Bu bölümde en son haberleri bulabilirsiniz.</p>
+    </section>
+
+    <!-- Bootstrap JavaScript and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+    <p>© 2024 Şirket Adı. Tüm hakları saklıdır.</p>
+</footer>
+
+
+</html>

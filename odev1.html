@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odev1</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background-color: #e8f0fe;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            max-width: 90%;
+            border-collapse: collapse;
+            margin: 40px auto;
+            background-color: #ffffff;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        th {
+            background-color: #4a90e2;
+            color: white;
+            font-size: 18px;
+            padding: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            border-bottom: 3px solid #357ABD;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        td {
+            padding: 14px;
+            border-bottom: 1px solid #b7b4b4;
+            text-align: center;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f4f8fb;
+        }
+
+        tr:hover td {
+            background-color: #dce5f5;
+            transition: background-color 0.4s ease;
+        }
+
+        caption {
+            caption-side: top;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        th:first-child {
+            border-top-left-radius: 12px;
+        }
+
+        th:last-child {
+            border-top-right-radius: 12px;
+        }
+
+        tr:last-child td:first-child {
+            border-bottom-left-radius: 12px;
+        }
+
+        tr:last-child td:last-child {
+            border-bottom-right-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Öğrenci Not Tablosu</caption>
+        <tr>
+            <th>Ad Soyad</th>
+            <th>Numara</th>
+            <th>Ders</th>
+            <th>Not</th>
+        </tr>
+        <tr>
+            <td>Ali Yılmaz</td>
+            <td>123456</td>
+            <td>Matematik</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Ayşe Demir</td>
+            <td>654321</td>
+            <td>Fizik</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Mehmet Kara</td>
+            <td>112233</td>
+            <td>Kimya</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>Elif Kaya</td>
+            <td>445566</td>
+            <td>Biyoloji</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>Canan Aydın</td>
+            <td>778899</td>
+            <td>Tarih</td>
+            <td>62</td>
+        </tr>
+    </table>
+</body>
+
+</html>
